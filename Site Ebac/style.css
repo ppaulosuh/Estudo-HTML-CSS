@@ -1,0 +1,56 @@
+h1{
+    color: rgb(26, 138, 86);
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:link, a:visited{
+    color: rgb(107, 109, 224);
+    text-decoration: none;
+}
+a:hover{
+    text-align: underline;
+}
+
+#wrap{
+    width: 960px;
+    margin: auto;
+    padding: 10px 20px;
+}
+
+#form{
+    background: rgb(231, 172, 61);
+}
+header nav ul{
+    list-style: none;
+    padding-left: 0;
+}
+header nav ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+header nav ul li a{
+    font-size: 18px;
+}
+
+#content{
+    float:left;
+    width: 660px;
+}
+
+footer{
+    margin-top: 25%;
+    background: rgb(247, 144, 144);
+}
+label, input[type="submit"] input[type=text], textarea{
+    display: block;
+}
+
+input[type="submit"]{
+    background: rgb(63, 63, 63);
+    color: #ffffff;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 0;
+}
